@@ -48,8 +48,8 @@ pipeline{
                    """
             }
         }
-    }
-
+      }
+    } 
     post{
         always {
             echo " hello im using pipeline say again hello!"
@@ -60,8 +60,6 @@ pipeline{
         success {
             echo ' I will always say Hello when pipeline is success '
         }
-    }
-}
 }
 
 
