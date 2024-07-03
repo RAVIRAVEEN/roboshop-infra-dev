@@ -38,7 +38,7 @@ pipeline{
                 // submitter "alice,bob"
                 // parameters {
                 //     string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
-                // }
+                 }
 
 
             steps {
@@ -49,7 +49,7 @@ pipeline{
             }
         }
       }
-    } 
+     
     post{
         always {
             echo " hello im using pipeline say again hello!"
@@ -60,8 +60,5 @@ pipeline{
         success {
             echo ' I will always say Hello when pipeline is success '
         }
+   }
 }
-
-
-
-
