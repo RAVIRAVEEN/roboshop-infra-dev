@@ -11,7 +11,7 @@ pipeline{
    
 
     stages{
-        stage( 'terraform init') {
+        stage( 'init') {
             steps {
                    sh """ 
                    cd 01-vpc 
@@ -21,7 +21,7 @@ pipeline{
         }
 
 
-         stage( 'terraform plan') {
+         stage( 'plan') {
             steps {
                    sh """ 
                    cd 01-vpc 
