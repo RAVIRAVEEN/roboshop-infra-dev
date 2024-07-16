@@ -1,6 +1,6 @@
 module "mongodb" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -13,7 +13,7 @@ module "mongodb" {
 
 module "vpn" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -28,7 +28,7 @@ module "vpn" {
 
 module "catalogue" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -42,7 +42,7 @@ module "catalogue" {
 
 module "user" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -57,7 +57,7 @@ module "user" {
 
 module "cart" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -70,7 +70,7 @@ module "cart" {
 
 module "redis" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -84,7 +84,7 @@ module "redis" {
 
 module "mysql" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -97,7 +97,7 @@ module "mysql" {
 
 module "shipping" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -110,7 +110,7 @@ module "shipping" {
 
 module "web" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -123,7 +123,7 @@ module "web" {
 
 module "rabbitmq" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -136,7 +136,7 @@ module "rabbitmq" {
 
 module "payment" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -150,7 +150,7 @@ module "payment" {
 
 module "app_alb" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
@@ -163,7 +163,7 @@ module "app_alb" {
 
 module "web_alb" {
 
-    source = "../../terraform-aws-security-group"
+    source = "git::https://github.com/RAVIRAVEEN/terraform-aws-security-group.git?ref=main"
     project_name = var.project_name
     envinorment = var.envinorment
     common_tags = var.common_tags
