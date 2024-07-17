@@ -26,7 +26,7 @@ pipeline {
                     steps {
                        sh """
                         cd 05-app_alb
-                        terraform init -reconfigure
+                         terraform init -upgrade -reconfigure
                         terraform destroy -auto-approve
                       """
                     }
